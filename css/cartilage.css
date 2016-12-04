@@ -9,15 +9,31 @@ button {
   border: none;
 }
 
-.runner {
-  width: 800px;
-  margin: 0 auto;
-  background-color: white;
-  max-width: 100%;
+.bg-black {
+  background-color: black;
 }
 
-.runner-interior {
-  padding: 20px;
+.bg-white {
+  background-color: white;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+
+.big-c {
+  max-height: 50px;
+}
+
+.nav-link-cartilage {
+  color: black;
+}
+
+.cartilage-container {
+  padding-top: 20px;
 }
 
 .master-logo {
