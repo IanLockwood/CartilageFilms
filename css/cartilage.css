@@ -103,6 +103,10 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.unstyled {
+  font-style: normal;
+}
+
 .poster {
   width: 100%;
 }
