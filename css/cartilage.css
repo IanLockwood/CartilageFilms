@@ -142,3 +142,21 @@ a:hover {
     margin-top: 40px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .poster-block {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .poster-block {
+    height: 550px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .poster-block {
+    height: 650px;
+  }
+}
