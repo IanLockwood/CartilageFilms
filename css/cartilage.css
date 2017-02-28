@@ -17,6 +17,10 @@ a:hover {
   text-decoration: none;
 }
 
+nav {
+  position: relative;
+}
+
 .bg-black {
   background-color: black;
 }
@@ -96,6 +100,12 @@ a:hover {
   cursor: pointer;
 }
 
+.film-category {
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
 .film-link {
   color: black;
   text-transform: uppercase;
@@ -132,14 +142,36 @@ a:hover {
   margin: 40px 0 20px;
 }
 
+.social-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 1px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.theater-header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.theater-sub-header {
+  font-style: italic;
+  font-weight: bold;
 }
 
 
 @media only screen and (max-width: 767px) {
   .video-container {
     margin-top: 40px;
+  }
+
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 85px;
   }
 }
 
